@@ -12,7 +12,8 @@ int main()
     cout << "Enter another whole number: ";
     b = inputValidation();
 
-    cout << "inputs: " << a << " " << b << endl; // debug print
+    calcSum(a, b);
+    calcDiv(a, b);
 
     return 0;
 }

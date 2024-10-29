@@ -14,3 +14,17 @@ int inputValidation() {
     }
     return input;
 }
+
+void calcSum(int a, int b) {
+    int sum = a + b;
+    cout << sum << endl;
+}
+
+void calcDiv(int a, int b) {
+    if(b == 0) {
+        cout << "Error. Can't divide by 0." << endl;
+    } else {
+        int quotient = a / b;
+        cout << quotient << endl;
+    }
+}
