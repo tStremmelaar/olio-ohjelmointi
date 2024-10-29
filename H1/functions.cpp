@@ -28,3 +28,18 @@ void calcDiv(int a, int b) {
         cout << quotient << endl;
     }
 }
+
+int retSum(int a, int b) {
+    int sum = a + b;
+    return sum;
+}
+
+float retDiv(int a, int b) {
+    if(b == 0) {
+        cout << "Error. Can't divide by 0." << endl;
+        return 0;
+    } else {
+        float quotient = (float)a / (float)b;
+        return quotient;
+    }
+}
