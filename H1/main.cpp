@@ -19,7 +19,7 @@ int main()
     sum = retSum(a, b);
     cout << a << " + " << b << " = " << sum << endl;
     quotient = retDiv(a, b);
-    if(quotient != 0) {
+    if(b != 0) {
         cout << a << " / " << b << " = " << quotient << endl;
     }
 
