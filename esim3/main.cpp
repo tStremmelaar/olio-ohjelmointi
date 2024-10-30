@@ -4,16 +4,26 @@
 using namespace std;
 
 int main() {
-  int num, result;
-  cout << "Lasketaan kertoma!" << endl;
-  cout << "Anna positiivinen kokonaisluku" << endl;
-  cin >> num;
-  result = factorial(num);
-  if (result == -1) {
-    cout << "Kertomaa ei voi laskea negatiiviselle luvulle" << endl;
-  } else {
-    cout << "Luvun " << num << " kertoma = " << result << endl;
-  }
+    int num;
+    int result;
+    int n, k;
 
-  return 0;
+    cout << "Lasketaan kertoma!" << endl;
+    cout << "Anna positiivinen kokonaisluku" << endl;
+    cin >> num;
+    result = factorial(num);
+    if (result == -1) {
+      cout << "Kertomaa ei voi laskea negatiiviselle luvulle" << endl;
+    } else {
+      cout << "Luvun " << num << " kertoma = " << result << endl;
+    }
+
+    cout << "Anna n " << endl;
+    cin >> n;
+    cout << "Anna k" << endl;
+    cin >> k;
+    result = coefficient(n, k);
+    cout << n << " yli " << k << " = " << result << endl;
+
+    return 0;
 }
