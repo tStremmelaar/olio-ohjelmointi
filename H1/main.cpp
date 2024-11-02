@@ -1,8 +1,10 @@
 #include <iostream>
+#include "mathfunctions.h"
 
 using namespace std;
 
-int main() {
+int main()
+{
     int a, b;
 
     // get values for integers
@@ -12,6 +14,8 @@ int main() {
     cin >> b;
 
     //cout << a << endl << b << endl; // debug print
+
+    calcSum(a, b);
 
     return 0;
 }
