@@ -6,6 +6,7 @@ using namespace std;
 int main()
 {
     int a, b;
+    int result;
 
     // get values for integers
     cout << "Enter an integer: ";
@@ -17,6 +18,9 @@ int main()
 
     calcSum(a, b);
     calcDiv(a, b);
+
+    result = retSum(a, b);
+    cout << result << endl;
 
     return 0;
 }

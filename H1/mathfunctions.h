@@ -3,5 +3,6 @@
 
 void calcSum(int, int);
 void calcDiv(int, int);
+int retSum(int, int);
 
 #endif // MATHFUNCTIONS_H

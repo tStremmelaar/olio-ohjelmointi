@@ -22,3 +22,10 @@ void calcDiv(int a, int b)
         cout << quotient << endl;
     }
 }
+
+int retSum(int a, int b)
+{
+    // return sum of two ints
+    int sum = a + b;
+    return sum;
+}
