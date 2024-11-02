@@ -6,7 +6,8 @@ using namespace std;
 int main()
 {
     int a, b;
-    int result;
+    int sum;
+    float fraction;
 
     // get values for integers
     cout << "Enter an integer: ";
@@ -19,8 +20,10 @@ int main()
     calcSum(a, b);
     calcDiv(a, b);
 
-    result = retSum(a, b);
-    cout << result << endl;
+    sum = retSum(a, b);
+    cout << sum << endl;
+    fraction = retDiv(a, b);
+    cout << fraction << endl;
 
     return 0;
 }

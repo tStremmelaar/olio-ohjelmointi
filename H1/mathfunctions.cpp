@@ -29,3 +29,17 @@ int retSum(int a, int b)
     int sum = a + b;
     return sum;
 }
+
+float retDiv(int a, int b)
+{
+    // return fraction of two ints
+    if(b == 0)
+    {
+        cout << "Error: can not divide by 0" << endl;
+        return 0;
+    }
+    else {
+        float fraction = (float)a / (float)b;
+        return fraction;
+    }
+}
