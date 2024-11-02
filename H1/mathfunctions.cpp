@@ -12,6 +12,13 @@ void calcSum(int a, int b)
 void calcDiv(int a, int b)
 {
     // print quotient of two ints
-    int quotient = a / b;
-    cout << quotient << endl;
+    if(b == 0)
+    {
+        cout << "Error: can not divide by 0" << endl;
+    }
+    else
+    {
+        int quotient = a / b;
+        cout << quotient << endl;
+    }
 }
