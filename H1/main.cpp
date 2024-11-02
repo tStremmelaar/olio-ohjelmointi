@@ -16,6 +16,7 @@ int main()
     //cout << a << endl << b << endl; // debug print
 
     calcSum(a, b);
+    calcDiv(a, b);
 
     return 0;
 }
