@@ -11,7 +11,7 @@ private:
     string model;
     int yearModel;
 public:
-    Car(string, string, int);
+    Car(string newBrand, string newModel, int newYearModel);
     void printData();
 };
 
