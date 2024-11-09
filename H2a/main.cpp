@@ -1,5 +1,8 @@
 #include "car.h"
 #include "rectangle.h"
+#include "student.h"
+
+#include <memory>
 
 int main()
 {
@@ -17,5 +20,12 @@ int main()
     delete objRectangle;
     objRectangle = nullptr;
 
+    unique_ptr<Student> objStudent = make_unique<Student>();
+    objStudent->setName("Teppo Testi");
+    objStudent->setStudentNumber(32487);
+    objStudent->setAverage(3.22);
+    cout << "Name:\t\t" << objStudent->getName() << endl;
+    cout << "Student number:\t" << objStudent->getStudentNumber() << endl;
+    cout << "Average:\t" << objStudent->getAverage() << endl << endl;
     return 0;
 }
