@@ -4,4 +4,8 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        chef.cpp \
         main.cpp
+
+HEADERS += \
+    chef.h
