@@ -2,21 +2,21 @@
 
 Chef::Chef(string newName)
 {
-    name = "Chef " + newName + " ";
-    cout << name << "konstruktori" << endl;
+    name = newName;
+    cout << "Chef " << name << " konstruktori" << endl;
 }
 
 void Chef::makeSalad()
 {
-    cout << name << "makes salad" << endl;
+    cout << "Chef " << name << " makes salad" << endl;
 }
 
 void Chef::makeSoup()
 {
-    cout << name << "makes soup" << endl;
+    cout << "Chef " << name << " makes soup" << endl;
 }
 
 Chef::~Chef()
 {
-    cout << name << "destruktori" << endl;
+    cout << "Chef " << name << " destruktori" << endl;
 }
