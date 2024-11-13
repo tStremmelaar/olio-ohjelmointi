@@ -6,3 +6,5 @@ void Animal::callOut()
 {
     cout << "Eläin ääntelee" << endl;
 }
+
+Animal::~Animal() {}
