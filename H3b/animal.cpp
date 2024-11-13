@@ -4,7 +4,7 @@ Animal::Animal() {}
 
 void Animal::callOut()
 {
-    std::cout << "Eläin ääntelee." << std::endl;
+    std::cout << "Elain aantelee." << std::endl;
 }
 
 Animal::~Animal() {}
