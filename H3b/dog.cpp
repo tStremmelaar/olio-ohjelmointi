@@ -4,5 +4,5 @@ Dog::Dog() {}
 
 void Dog::callOut()
 {
-    cout << "Koira haukkuu!" << endl;
+    std::cout << "Koira haukkuu!" << std::endl;
 }
