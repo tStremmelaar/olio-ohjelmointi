@@ -7,4 +7,7 @@ void Animal::callOut()
     std::cout << "Elain aantelee." << std::endl;
 }
 
-Animal::~Animal() {}
+Animal::~Animal()
+{
+    std::cout << "Animal destructor" << std::endl;
+}
