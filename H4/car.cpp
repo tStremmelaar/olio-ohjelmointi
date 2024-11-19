@@ -56,8 +56,8 @@ void Car::printDetails()
 
 Car::Car() {}
 
-Car::Car(string newModel, string newBrand)
+Car::Car(string newBrand, string newModel)
 {
-    model = newModel;
     brand = newBrand;
+    model = newModel;
 }
