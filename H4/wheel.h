@@ -1,7 +1,7 @@
 #ifndef WHEEL_H
 #define WHEEL_H
 
-#include <string>
+#include <iostream>
 using namespace std;
 
 class Wheel
