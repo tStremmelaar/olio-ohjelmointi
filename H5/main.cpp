@@ -1,3 +1,6 @@
+#include <classb.h>
+#include <associationa.h>
+
 #include <iostream>
 
 using namespace std;
@@ -28,5 +31,17 @@ int main()
 
     refA = b;
     // refA:ta ei saa osoittamaan b:n osoitteeseen
+
+
+    ClassB objB;
+    objB.setInfo("Olion B asettama info");
+
+    AssociationA objAss(objB);
+    objAss.setBinfo("Olion objAss asettama info");
+
+    cout << "Assosiaatio esimerkki:" << endl;
+    cout << "objB: " << objB.getInfo() << endl;
+    cout << "objAss: " << objAss.getBinfo() << endl;
+
     return 0;
 }
