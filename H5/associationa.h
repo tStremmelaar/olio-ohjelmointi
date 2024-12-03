@@ -8,7 +8,9 @@ class AssociationA
 private:
     ClassB objectB;
 public:
-    AssociationA();
+    AssociationA(ClassB);
+    string getBinfo();
+    void setBinfo(string);
 };
 
 #endif // ASSOCIATIONA_H
