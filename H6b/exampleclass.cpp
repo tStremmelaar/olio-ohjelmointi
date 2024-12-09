@@ -6,7 +6,7 @@ ExampleClass::ExampleClass(QObject *parent)
     qDebug() << "Start";
 
     // connect...
-    QObject::connect(parent, SIGNAL(readyToSay()), this, SLOT(sayHelloSlot()));
+    QObject::connect(this, SIGNAL(readyToSay()), this, SLOT(sayHelloSlot()));
 
     qDebug() << "End";
 }
