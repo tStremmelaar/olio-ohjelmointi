@@ -63,7 +63,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Painiketta painettu 0 kertaa</string>
+     <string>Painiketta Count painettu 0 kertaa</string>
     </property>
    </widget>
   </widget>
