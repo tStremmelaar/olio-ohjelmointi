@@ -20,6 +20,8 @@ public:
 private slots:
     void on_btnCount_clicked();
 
+    void on_btnReset_clicked();
+
 private:
     Ui::MainWindow *ui;
     int counter = 0;
