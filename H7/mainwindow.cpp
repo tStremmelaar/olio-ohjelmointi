@@ -17,4 +17,7 @@ void MainWindow::on_btnCount_clicked()
 {
     ++counter;
     QString s = QString::number(counter);
+    ui->labelInfo->setText("Painiketta Count painettu "
+                           + s + " kertaa");
+    ui->txtResult->setText(s);
 }
